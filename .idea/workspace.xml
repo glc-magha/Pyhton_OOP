@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbc03906-0ab0-4ea6-a7f6-dff8d76ee760" name="Changes" comment="" />
+    <list default="true" id="cbc03906-0ab0-4ea6-a7f6-dff8d76ee760" name="Changes" comment="Pyhton oop">
+      <change beforePath="$PROJECT_DIR$/Class_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_example.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,6 +31,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
@@ -41,6 +51,19 @@
       <option name="presentableId" value="Default" />
       <updated>1744056277852</updated>
     </task>
+    <task id="LOCAL-00001" summary="Pyhton oop">
+      <option name="closed" value="true" />
+      <created>1744056446412</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744056446412</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pyhton oop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pyhton oop" />
   </component>
 </project>
