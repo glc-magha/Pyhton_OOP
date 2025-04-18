@@ -238,4 +238,5 @@ class MyClass:
     def __init__(self, name, age):
         self.name = name
         self.age = age
-Zayıf Referanslar: Büyük veri yapıları ile çalışırken, weakref kullanarak bellek üzerinde daha fazla kontrol sahibi olabilirsiniz. Bu sayede, nesneler gereksiz yere bellekten silinmeden önce, Python'un çöp toplama algoritması devreye girebilir."""
+Zayıf Referanslar: Büyük veri yapıları ile çalışırken, weakref kullanarak bellek üzerinde daha fazla kontrol sahibi olabilirsiniz. Bu sayede, nesneler gereksiz yere bellekten silinmeden önce, Python'un çöp toplama algoritması devreye girebilir.
+"""
