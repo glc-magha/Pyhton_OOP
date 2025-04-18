@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbc03906-0ab0-4ea6-a7f6-dff8d76ee760" name="Changes" comment="Pyhton oop">
-      <change afterPath="$PROJECT_DIR$/Memory_Management.py" afterDir="false" />
+    <list default="true" id="cbc03906-0ab0-4ea6-a7f6-dff8d76ee760" name="Changes" comment="Heap-Stack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,11 +83,40 @@
       <option name="project" value="LOCAL" />
       <updated>1744056914869</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Pyhton OOP">
+      <option name="closed" value="true" />
+      <created>1745003910793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745003910793</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Heap-Stack">
+      <option name="closed" value="true" />
+      <created>1745003929148</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745003929148</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pyhton oop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pyhton oop" />
+    <MESSAGE value="Pyhton OOP" />
+    <MESSAGE value="Heap-Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Heap-Stack" />
   </component>
 </project>

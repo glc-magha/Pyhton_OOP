@@ -1,4 +1,4 @@
-6. Python Bellek Yönetimi Derinlemesine
+"""6. Python Bellek Yönetimi Derinlemesine
 6.1 Nesnelerin Yaşam Döngüsü
 Python('da bir nesnenin yaşam döngüsü, referans sayımı ve çöp toplama ile yönetilir.'
        ' Nesneler oluşturulduğunda, Python bunlara referans sayısı atar.'
@@ -109,3 +109,5 @@ class MyClass:
         self.name = name
         self.age = age
 Zayıf Referanslar: Büyük veri yapıları ile çalışırken, weakref kullanarak bellek üzerinde daha fazla kontrol sahibi olabilirsiniz. Bu sayede, nesneler gereksiz yere bellekten silinmeden önce, Python'un çöp toplama algoritması devreye girebilir.
+
+"""
