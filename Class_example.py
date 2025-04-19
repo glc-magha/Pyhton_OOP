@@ -1,4 +1,4 @@
-class Araba:
+"""class Araba:
     renk = "kırmızı"  # özellik
     def calistir(self):  # davranış
         print("Araba çalıştı.")
@@ -278,3 +278,4 @@ if aktif_hesap:
             break
         else:
             print("Geçersiz seçim!")
+"""
