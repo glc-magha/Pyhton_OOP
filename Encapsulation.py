@@ -119,4 +119,62 @@ Neden Encapsulation?
 __sifre	Dışarıdan erişilemez → koruma sağlar
 sifre_degistir()	Şifreyi kontrol ederek değiştirme
 giris_yap()	Doğrulama sağlar
-get_sifre()	Bilgiyi gizler, şifreyi göstermez"""
+get_sifre()	Bilgiyi gizler, şifreyi göstermez
+
+ #Şifre güvenliği açısından şifreleri düz metin olarak saklamak çok risklidir. Bu yüzden genellikle hashing (karma) yöntemi kullanılır.
+
+Python’da şifreleri güvenli şekilde saklamak için en çok kullanılan modüllerden biri: hashlib
+
+ Şifre Karma (Hash) Nedir?
+Şifre düz metin olarak değil, tek yönlü bir algoritma ile şifrelenerek saklanır.
+
+En yaygın algoritmalar: SHA-256, SHA-1, MD5 (ama MD5 artık önerilmez).
+
+Geri çözülemez → sadece doğrulama için kullanılır.
+
+ Örnek: Kullanıcı Sınıfı + Hashli Şifre
+
+import hashlib
+
+class Kullanici:
+    def __init__(self, kullanici_adi, sifre):
+        self.kullanici_adi = kullanici_adi
+        self.__sifre_hash = self.__sifre_hashle(sifre)
+
+    def __sifre_hashle(self, sifre):
+        return hashlib.sha256(sifre.encode()).hexdigest()
+
+    def giris_yap(self, girilen_sifre):
+        if self.__sifre_hash == self.__sifre_hashle(girilen_sifre):
+            print(f"Giriş başarılı. Hoş geldin, {self.kullanici_adi}!")
+        else:
+            print("Hatalı şifre!")
+
+    def sifre_degistir(self, eski_sifre, yeni_sifre):
+        if self.__sifre_hash == self.__sifre_hashle(eski_sifre):
+            self.__sifre_hash = self.__sifre_hashle(yeni_sifre)
+            print("Şifre başarıyla değiştirildi.")
+        else:
+            print("Eski şifre yanlış. Değiştirilemedi.")
+
+    def sifreyi_goster(self):
+        return self.__sifre_hash  # sadece hash'i gösterir
+ Kullanım:
+
+k1 = Kullanici("mehmet", "12345")
+
+print("Kayıtlı şifre (hash):", k1.sifreyi_goster())
+
+k1.giris_yap("12345")     # Giriş başarılı
+k1.giris_yap("yanlis")    # Hatalı şifre!
+
+k1.sifre_degistir("12345", "abc123")
+k1.giris_yap("abc123")    # Giriş başarılı
+ Hash'li Şifre Örneği:
+
+hashlib.sha256("12345".encode()).hexdigest()
+ Çıktı (örnek):
+
+#çıktı örneği
+5994471abb01112afcc18159f6cc74b4f511b99806da5ec8a4c1d1e7c4d8f7f0
+"""
