@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbc03906-0ab0-4ea6-a7f6-dff8d76ee760" name="Changes" comment="Heap-Stack">
+    <list default="true" id="cbc03906-0ab0-4ea6-a7f6-dff8d76ee760" name="Changes" comment="Memory Management">
+      <change afterPath="$PROJECT_DIR$/Abstraction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Encapsulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Overriding.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745003929148</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Heap-Stack">
+      <option name="closed" value="true" />
+      <created>1745004337677</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745004337677</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Memory Management">
+      <option name="closed" value="true" />
+      <created>1745004383090</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745004383090</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +138,7 @@
     <MESSAGE value="Pyhton oop" />
     <MESSAGE value="Pyhton OOP" />
     <MESSAGE value="Heap-Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Heap-Stack" />
+    <MESSAGE value="Memory Management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Memory Management" />
   </component>
 </project>
