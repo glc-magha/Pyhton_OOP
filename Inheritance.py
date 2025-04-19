@@ -1,4 +1,4 @@
-Inheritance (Türkçesi: Kalıtım), nesne yönelimli programlamada (OOP) bir sınıfın
+"""Inheritance (Türkçesi: Kalıtım), nesne yönelimli programlamada (OOP) bir sınıfın
 (alt sınıf - subclass) başka bir sınıfın (üst sınıf - superclass) özelliklerini ve metotlarını miras almasıdır.
 
 Bu sayede kod tekrarından kaçınılır ve daha modüler, sürdürülebilir yazılım geliştirilir.
@@ -67,10 +67,4 @@ class Tasarimci(Calisan):
 
         for kisi in personel:
             kisi.calis()
-
-
-
-
-
-
-
+"""
