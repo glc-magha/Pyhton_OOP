@@ -166,5 +166,4 @@ Metot / Özellik	Nerede?	Ne Yaptık?
 __init__	OzellestirilmisPencere	     Başlığı ve etiket metnini değiştirdik
 kapat()	OzellestirilmisPencere       	 Kapatma davranışını özelleştirdik
 merhaba_de()	Yeni metot           	 Ekstra işlev ekledik
-
 """
